@@ -28,6 +28,11 @@ public class TransactionController {
         Payment payment = paymentService.getPaymentById(id);
         return ResponseEntity.ok(payment);
     }
-
+//        @GetMapping("/{id}")
+//    public ResponseEntity<Payment> getPayment(@PathVariable Long id) {
+//        Payment payment = paymentService.getPaymentById(id);
+//        return ResponseEntity.ok(payment);
+//    }
 
 }
+
